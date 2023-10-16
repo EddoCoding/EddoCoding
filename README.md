@@ -3,14 +3,35 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWUxOXk0NmFod3N1ampzczAwanhiOXBmN3FvNHc5N3JrMDdjcTRzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72F7RrTPW6jymXew/giphy.gif" width="2000"/>
 </div>
 
-1. About Me
+```
+string[] aboutMe = ProfileGitHub[0];
+Console.WriteLine("1. About Me: \n");
+Array.ForEach(aboutMe, aboutMe => Console.WriteLine($"\t {aboutMe}"));
+```
+##### Результат кода:
+
+1. About Me:
   - Eduard
   - 26 годиков
   - Student-самоучка
   - Цель: Своя IT империя
 
-2. Stack:
+```
+string[][] StackBadges = ProfileGitHub[1];
+Console.WriteLine("2. Stack: \n");
+Array.ForEach(StackBadges, badges =>
+{
+    Console.WriteLine();
+    Array.ForEach(badges, badge =>
+    {
+        Console.Write($"\t{badge}");
+    });
+});
+```
 
+##### Результат кода:
+
+2. Stack:
 <div>
   <img src="https://img.shields.io/badge/C%20Sharp-darkviolet?logo=csharp&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/-WPF-darkviolet?style=for-the-badge"/>
