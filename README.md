@@ -4,34 +4,25 @@
 </div>
 
 ```
-string[] aboutMe = ProfileGitHub[0];
-Console.WriteLine("1. About Me: \n");
-Array.ForEach(aboutMe, aboutMe => Console.WriteLine($"\t {aboutMe}"));
+MyProfileGitHub myProfileGitHub = new MyProfileGitHub(AboutMe, Stack, Tools, ContactMe);
 ```
-##### Результат кода:
+```
+Console.WriteLine($"1. About Me:");
+ShowResult(myProfileGitHub.aboutMe.Info);
+```
+## 1. About Me:
 
-1. About Me:
   - Eduard
-  - 26 годиков
-  - Student-самоучка
-  - Цель: Своя IT империя
-
+  - 26 years old
+  - Self-taught student
+  - Goal: Your own IT empire
+---
 ```
-string[][] StackBadges = ProfileGitHub[1];
-Console.WriteLine("2. Stack: \n");
-Array.ForEach(StackBadges, badges =>
-{
-    Console.WriteLine();
-    Array.ForEach(badges, badge =>
-    {
-        Console.Write($"\t{badge}");
-    });
-});
+Console.WriteLine($"2. My Stack:");
+ShowResult(myProfileGitHub.stack.Info);
 ```
+## 2. My Stack:
 
-##### Результат кода:
-
-2. Stack:
 <div>
   <img src="https://img.shields.io/badge/C%20Sharp-darkviolet?logo=csharp&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/-WPF-darkviolet?style=for-the-badge"/>
@@ -50,7 +41,11 @@ Array.ForEach(StackBadges, badges =>
 </div>
 <img src="https://img.shields.io/badge/Markdown-black?logo=markdown&logoColor=white&style=for-the-badge"/>
 
-3. Tools:
+```
+Console.WriteLine($"3. My Tools:");
+ShowResult(myProfileGitHub.tools.Info);
+```
+## 3. My Tools:
    
 <div>
   <img src="https://img.shields.io/badge/Visual Studio-white?logo=visualstudio&logoColor=darkviolet&style=for-the-badge"/>
@@ -70,10 +65,29 @@ Array.ForEach(StackBadges, badges =>
 </div>
 <p></p>
 
-4. Contact me:
+```
+Console.WriteLine($"\n4. Contact Me:");
+ShowResult(myProfileGitHub.contactMe.Info);
+```
+## 4. Contact Me:
    
 <div>
   <a href="https://vk.com/id639312755"> <img src="https://img.shields.io/badge/Вконтакте-white?logo=vk&logoColor=blue&style=for-the-badge"/> </a>
-  <a href="https://t.me/BigVad"> <img src="https://img.shields.io/badge/Telegram-white?logo=telegram&logoColor=blue&style=for-the-badge"/> </a>
+  <a href="https://t.me/VoenkomatCheb"> <img src="https://img.shields.io/badge/Telegram-white?logo=telegram&logoColor=blue&style=for-the-badge"/> </a>
 </div>
-<p></p>
+
+## Метод:
+```
+void ShowResult(object info)
+{
+    if (info is string[][])
+    {
+        foreach (string[] textStackArray in (IEnumerable<object>)info)
+        {
+            Console.WriteLine();
+            foreach (string textStack in textStackArray) { Console.Write($"\t{textStack}"); }
+        }
+    }
+    else if (info is object[]) { foreach (string textAboutMe in (IEnumerable<object>)info) { Console.WriteLine($"\t{textAboutMe}"); } }
+}
+```
