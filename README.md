@@ -2,11 +2,11 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWUxOXk0NmFod3N1ampzczAwanhiOXBmN3FvNHc5N3JrMDdjcTRzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72F7RrTPW6jymXew/giphy.gif" width="2000"/>
 
 ```
-MyProfileGitHub myProfileGitHub = new MyProfileGitHub(AboutMe, Stack, Tools, ContactMe);
+MyProfileGitHub myProfileGitHub = new MyProfileGitHub(AboutMe, MyStack, MyTools, ContactMe);
 ```
 ```
 Console.WriteLine($"1. About Me:");
-ShowResult(myProfileGitHub.aboutMe.Info);
+ShowResult(myProfileGitHub.AboutMe);
 ```
 ## 1. About Me:
 
@@ -17,7 +17,7 @@ ShowResult(myProfileGitHub.aboutMe.Info);
 ---
 ```
 Console.WriteLine($"2. My Stack:");
-ShowResult(myProfileGitHub.stack.Info);
+ShowResult(myProfileGitHub.MyStack);
 ```
 ## 2. My Stack:
 
@@ -41,7 +41,7 @@ ShowResult(myProfileGitHub.stack.Info);
 
 ```
 Console.WriteLine($"3. My Tools:");
-ShowResult(myProfileGitHub.tools.Info);
+ShowResult(myProfileGitHub.MyTools);
 ```
 ## 3. My Tools:
    
@@ -65,7 +65,7 @@ ShowResult(myProfileGitHub.tools.Info);
 
 ```
 Console.WriteLine($"\n4. Contact Me:");
-ShowResult(myProfileGitHub.contactMe.Info);
+ShowResult(myProfileGitHub.ContactMe);
 ```
 ## 4. Contact Me:
    
@@ -80,13 +80,13 @@ void ShowResult(object info)
 {
     if (info is string[][])
     {
-        foreach (string[] textStackArray in (IEnumerable<object>)info)
+        foreach (string[] textDefault in (IEnumerable<object>)info)
         {
             Console.WriteLine();
-            foreach (string textStack in textStackArray) { Console.Write($"\t{textStack}"); }
+            foreach (string text in textDefault) { Console.Write($"\t{text}"); }
         }
     }
-    else if (info is object[]) { foreach (string textAboutMe in (IEnumerable<object>)info) { Console.WriteLine($"\t{textAboutMe}"); } }
+    else if (info is string[]) { foreach (string textDefault in (IEnumerable<object>)info) { Console.WriteLine($"\t{textDefault}"); } }
 }
 ```
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2F2OHM2eGZpaG9ranF0bnk3dTFsbTlubXdxOGdjcThkaHZxd2swYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAXT3f4sZTvjqZq/giphy.gif" width="2000"/>
