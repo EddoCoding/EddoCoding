@@ -89,5 +89,4 @@ void ShowResult(object info)
     else if (info is object[]) { foreach (string textAboutMe in (IEnumerable<object>)info) { Console.WriteLine($"\t{textAboutMe}"); } }
 }
 ```
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2F2OHM2eGZpaG9ranF0bnk3dTFsbTlubXdxOGdjcThkaHZxd2swYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAXT3f4sZTvjqZq/giphy.gif" width="2000" height="400"/>
-
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2F2OHM2eGZpaG9ranF0bnk3dTFsbTlubXdxOGdjcThkaHZxd2swYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAXT3f4sZTvjqZq/giphy.gif" width="2000"/>
