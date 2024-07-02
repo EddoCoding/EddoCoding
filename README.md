@@ -74,20 +74,5 @@ ShowResult(myProfileGitHub.ContactMe);
   <a href="https://t.me/VoenkomatCheb"> <img src="https://img.shields.io/badge/Telegram-white?logo=telegram&logoColor=blue&style=for-the-badge"/> </a>
 </div>
 
-## Метод:
-```
-void ShowResult(object info)
-{
-    if (info is string[][])
-    {
-        foreach (string[] textDefault in (IEnumerable<object>)info)
-        {
-            Console.WriteLine();
-            foreach (string text in textDefault) { Console.Write($"\t{text}"); }
-        }
-    }
-    else if (info is string[]) { foreach (string textDefault in (IEnumerable<object>)info) { Console.WriteLine($"\t{textDefault}"); } }
-}
-```
 <p> Работодатель пишет мне </p>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2F2OHM2eGZpaG9ranF0bnk3dTFsbTlubXdxOGdjcThkaHZxd2swYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qAXT3f4sZTvjqZq/giphy.gif" width="2000"/>
