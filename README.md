@@ -11,7 +11,7 @@ ShowResult(myProfileGitHub.AboutMe);
 ## 1. About Me:
 
   - Eduard
-  - 26 years old
+  - 27 years old
   - Self-taught student
   - Goal: Your own IT empire
 ---
