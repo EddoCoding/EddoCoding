@@ -10,10 +10,12 @@ ShowResult(myProfileGitHub.AboutMe);
 ```
 ## 1. About Me:
 
-  - Eduard
-  - 27 years old
-  - Self-taught student
-  - Goal: Your own IT empire
+  - Эдуард
+  - 27 годиков
+  - Люблю писать код, особенно уровня enterprise
+  - Хочу свою IT империю
+
+  - Прошел курсы от Skillfactory - C# разработчик
 ---
 ```
 Console.WriteLine($"2. My Stack:");
