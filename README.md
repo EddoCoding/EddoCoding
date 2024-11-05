@@ -22,22 +22,32 @@ ShowResult(myProfileGitHub.MyStack);
 ## 2. My Stack:
 
 <div>
-  <img src="https://img.shields.io/badge/C%20Sharp-darkviolet?logo=csharp&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/-WPF-darkviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/-Windows Forms-darkviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/-Maui-darkviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/-Xamarin-darkviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/C%20Sharp-white?logo=csharp&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-WPF-white?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-Avalonia-white?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-Maui-white?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-Xamarin-white?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-Xaml-white?style=for-the-badge"/>
 </div>
 <div>
-  <img src="https://img.shields.io/badge/-WEB-pink?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HTMl-pink?logo=html5&logoColor=white&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/CSS-pink?logo=css3&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-PostgreSQL-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-SQL-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-EntityFramework-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-LINQ-blue?style=for-the-badge"/>
 </div>
 <div>
-  <img src="https://img.shields.io/badge/1C-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Лучше забыть-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-MVVM-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-ООП-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-SOLID-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-DRY-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-KISS-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-IoC-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-DI-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-GitHub-red?style=for-the-badge"/>
 </div>
-<img src="https://img.shields.io/badge/Markdown-black?logo=markdown&logoColor=white&style=for-the-badge"/>
+
+
+
 
 ```
 Console.WriteLine($"3. My Tools:");
@@ -60,6 +70,7 @@ ShowResult(myProfileGitHub.MyTools);
   <img src="https://img.shields.io/badge/Google translate-white?logo=googletranslate&logoColor=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Steam-white?logo=steam&logoColor=darkblue&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/YouTube-white?logo=youtube&logoColor=darkred&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GitHub-white?logo=github&logoColor=black&style=for-the-badge"/>
 </div>
 <p></p>
 
@@ -70,7 +81,6 @@ ShowResult(myProfileGitHub.ContactMe);
 ## 4. Contact Me:
    
 <div>
-  <a href="https://vk.com/id639312755"> <img src="https://img.shields.io/badge/Вконтакте-white?logo=vk&logoColor=blue&style=for-the-badge"/> </a>
   <a href="https://t.me/VoenkomatCheb"> <img src="https://img.shields.io/badge/Telegram-white?logo=telegram&logoColor=blue&style=for-the-badge"/> </a>
 </div>
 
