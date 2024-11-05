@@ -2,11 +2,11 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWUxOXk0NmFod3N1ampzczAwanhiOXBmN3FvNHc5N3JrMDdjcTRzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72F7RrTPW6jymXew/giphy.gif" width="2000"/>
 
 ```
-MyProfileGitHub myProfileGitHub = new MyProfileGitHub(AboutMe, MyStack, MyTools, ContactMe);
+IProfile myProfileGitHub = new MyProfile();
 ```
 ```
 Console.WriteLine($"1. About Me:");
-ShowResult(myProfileGitHub.AboutMe);
+Show(myProfileGitHub.AboutMe);
 ```
 ## 1. About Me:
 
@@ -19,7 +19,7 @@ ShowResult(myProfileGitHub.AboutMe);
 ---
 ```
 Console.WriteLine($"2. My Stack:");
-ShowResult(myProfileGitHub.MyStack);
+Show(myProfileGitHub.MyStack);
 ```
 ## 2. My Stack:
 
@@ -53,7 +53,7 @@ ShowResult(myProfileGitHub.MyStack);
 
 ```
 Console.WriteLine($"3. My Tools:");
-ShowResult(myProfileGitHub.MyTools);
+Show(myProfileGitHub.MyTools);
 ```
 ## 3. My Tools:
    
@@ -78,7 +78,7 @@ ShowResult(myProfileGitHub.MyTools);
 
 ```
 Console.WriteLine($"\n4. Contact Me:");
-ShowResult(myProfileGitHub.ContactMe);
+Show(myProfileGitHub.ContactMe);
 ```
 ## 4. Contact Me:
    
