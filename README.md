@@ -33,6 +33,7 @@ Show(myProfileGitHub.MyStack);
 </div>
 <div>
   <img src="https://img.shields.io/badge/-PostgreSQL-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-SQLite-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/-SQL-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/-EntityFramework-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/-LINQ-blue?style=for-the-badge"/>
